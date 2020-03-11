@@ -468,7 +468,7 @@ html {
 
                 .boxes a {
                     text-decoration: none;
-                    
+                    color: $default-dark;
                 }
                 
                 
@@ -492,6 +492,8 @@ html {
                 grid-gap: 20px;
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
               }
+
+          
 
                 .portfolio img {
                     width: 100%;
@@ -607,6 +609,7 @@ html {
 
     .project-boxes a {
         text-decoration: none;
+        color: $default-dark;
         
     }
     
@@ -656,6 +659,7 @@ html {
 
     a {
         text-decoration: none;
+        color: $default-primary;
     }
 
     a:visited {

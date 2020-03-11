@@ -565,6 +565,7 @@ body {
 
 .boxes a {
   text-decoration: none;
+  color: #333;
 }
 
 .boxes a:visited {
@@ -692,6 +693,7 @@ img {
 
 .project-boxes a {
   text-decoration: none;
+  color: #333;
 }
 
 .project-boxes a:visited {
@@ -736,6 +738,7 @@ img {
 
 .contact-methods a {
   text-decoration: none;
+  color: #ddd;
 }
 
 .contact-methods a:visited {
