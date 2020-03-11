@@ -13,7 +13,7 @@
                     $(this).css({'background-color': 'rgb(189,9,9)','color': '#fff'}); 
                 })
             $('.info-btn').css('background-color', 'rgb(189,9,9)');
-            $('footer').css('background-color', 'rgb(189,9,9)');         
+            $('.footer').css('background-color', 'rgb(189,9,9)');         
     }}); 
     
 
@@ -33,7 +33,7 @@
                     $(this).css({'background-color': 'rgb(0,128,0)', 'color': '#fff'}); 
                 })    
             $('.info-btn').css('background-color', 'rgb(0,128,0)');
-            $('footer').css('background-color', 'rgb(0,128,0)');
+            $('.footer').css('background-color', 'rgb(0,128,0)');
 
 
             
@@ -54,7 +54,7 @@
                     $(this).css({'background-color': 'rgb(30,144,255)', 'color': '#fff'}); 
                 })  
             $('.info-btn').css('background-color', 'rgb(30,144,255)');
-            $('footer').css('background-color', 'rgb(30,144,255)');
+            $('.footer').css('background-color', 'rgb(30,144,255)');
         },
     });   
     $('#purple').on({
@@ -72,7 +72,7 @@
                     $(this).css({'background-color': 'rgb(147,112,216)', 'color': '#fff'}); 
                 }) 
             $('.info-btn').css('background-color', 'rgb(147,112,216)');
-            $('footer').css('background-color', 'rgb(147,112,216)');
+            $('.footer').css('background-color', 'rgb(147,112,216)');
         },
     });   
     $('#default').on({
@@ -90,7 +90,7 @@
                     $(this).css({'background-color': 'rgb(221,221,221)', 'color': 'rgb(51,51,51)'}); 
                 }) 
             $('.info-btn').css('background-color', 'rgb(51,51,51)');
-            $('footer').css('background-color', 'rgb(51,51,51)');
+            $('.footer').css('background-color', 'rgb(51,51,51)');
         },
     });   
 
