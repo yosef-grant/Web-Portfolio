@@ -691,12 +691,8 @@ img {
   margin-top: 20px;
 }
 
-.project-boxes a {
+.project-boxes a, a:visited {
   text-decoration: none;
-  color: #333;
-}
-
-.project-boxes a:visited {
   color: #333;
 }
 

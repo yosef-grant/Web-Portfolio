@@ -607,15 +607,12 @@ html {
     margin-top: 20px;
 }
 
-    .project-boxes a {
+    .project-boxes a, a:visited {
         text-decoration: none;
         color: $default-dark;
         
     }
-    
-    .project-boxes a:visited {
-        color: $default-dark;
-    }
+ 
 
     .project-box {
         background: rgba($default-primary,0.5);
