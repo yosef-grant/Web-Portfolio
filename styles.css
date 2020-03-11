@@ -580,6 +580,10 @@ body {
           box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
+#all-projects {
+  color: #fff;
+}
+
 .portfolio {
   display: -ms-grid;
   display: grid;
