@@ -41,7 +41,7 @@ for(i=0; i<buttons.length; i++) {
                 if(e.target.dataset.number == lastKnownButtonNumber) {
                     
                     e.target.style.backgroundImage = "url('memory-game/resources/background_Match.jpg')";
-                    document.getElementById(lastKnownButtonId).style.backgroundImage="url('memory-game/resources/background_Match.jpg')";
+                    document.getElementById(lastKnownButtonId).style.backgroundImage="url('memory-game/resources/background_match.jpg')";
                     lastKnownButtonId = undefined;
                     lastKnownButtonNumber = undefined;
                     matches++;
