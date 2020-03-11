@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css" >
+        <title>Portfolio | Home</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        <!-- TOP CONTAINER  -->
+            <section class="top-container">
+                <header class="showcase">
+                    <h1>Welcome to my web portfolio.</h1>
+                    <br><p>Feel free to take a look around! Be sure to use a desktop browser for the best experience.<br><br> Select a home-page theme by clicking one of the buttons below:</p>
+                        <div class="theme-buttons">
+                            <a href="#" class="btn" id="red" onclick="activeRed()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                    Red
+                            </a>
+                            <a href="#" class="btn" id="green"><span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                    Green
+                            </a>
+                            <a href="#" class="btn" id="blue">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                    Blue
+                            </a>
+                            <a href="#" class="btn" id="purple">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                    Purple
+                            </a>
+                            <a href="#" class="btn" id="default">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                    Default
+                            </a>
+                </header>
+            </section>
+            <!-- INFO SECTION -->
+            <section class="info">
+                <div><h2>Have a look at my featured projects, or hit the button below to see all projects:</h2></div>
+                <a href="projects.html" class="info-btn" id="all-projects">All Projects</a>
+            </section>
+            <!-- BOXES SECTION -->
+            <section class="boxes">
+                <div class="box">
+                    <a href="connect-four.html"><img class="featured-project-icon" src="project_icons/png/connect-4.png" alt="connect4-icon"/></a>
+                    <a href="connect-four.html"><h3>Connect Four</h3></a>
+                    <p>Play an in-browser version of the classic game</p>
+                </div>
+                <div class="box">
+                    <a href="simon-says.html"><img class="featured-project-icon" src="project_icons/png/Rock_Paper_Scissors.png" alt="rockpaperscissors-icon"/></i>
+                    <h3>Rock, Paper, Scissors</h3></a>
+                    <p>Try to outwit the computer</p>
+                </div>
+                <div class="box">
+                    <a href="drag&drop.html"><img class="featured-project-icon" src="project_icons/png/Memory-game.png" alt="memorygame-icon"/></i>
+                    <h3>Memory Game</h3></a>
+                    <p>Test your memory skills</p>
+                </div>
+                <div class="box">
+                    <a href="quiz.html"><img class="featured-project-icon" src="project_icons/png/trivia.png" alt="quiz-icon"/></i>
+                    <h3>Triva Quiz</h3></a>
+                    <p>Use your general knowledge to beat this multiple-choice quiz</p>
+                </div>
+            </section>
+            <!-- Gallery -->
+            <section class="portfolio">
+                <img src="assets/home-images/web/code_1.jpg" alt="code-screen-1"/>
+                <img src="assets/home-images/web/code_2.jpg" alt="code-screen-2"/>
+                <img src="assets/home-images/web/code_3.jpg" alt="code-screen-3"/>
+                <img src="assets/home-images/web/code_4.jpg" alt="code-screen-4"/>
+                <img src="assets/home-images/web/code_5.jpg" alt="code-screen-5"/>
+                <img src="assets/home-images/web/code_6.jpg" alt="code-screen-6"/>
+                <img src="assets/home-images/web/code_7.jpg" alt="code-screen-7"/>
+                <img src="assets/home-images/web/code_8.jpg" alt="code-screen-8"/>
+                <img src="assets/home-images/web/code_9.jpg" alt="code-screen-9"/>
+            </section>
+            <div class="footer">
+                <p>Yosef Grant</p>
+                    <div class="external-icons">
+                        <a href="#" ><i class="fab fa-github fa-2x" id="git-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/yosef-grant" target="_blank"><i class="fab fa-linkedin fa-2x"></i>
+                    </div>
+                </div>
+        </div>
+        <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="themes.js"></script>
+    </body>
+</html>
