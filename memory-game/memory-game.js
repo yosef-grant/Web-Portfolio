@@ -46,7 +46,7 @@ for(i=0; i<buttons.length; i++) {
                     lastKnownButtonNumber = undefined;
                     matches++;
                         
-                        if(matches == 8) {
+                        if(matches == 1) {
                         showWinScreen();
                         }
                 }    
@@ -139,6 +139,7 @@ function reset() {
 
         buttons[i].innerHTML = getImage(0);
         buttons[i].style.backgroundImage = "url('memory-game/resources/background.jpg')";
+        buttons[i].dataset.turnable = "true";
         document.querySelector('.win-container').style.display = "none";
         document.getElementById("6").style.display = "block";
         document.getElementById("7").style.display = "block";
