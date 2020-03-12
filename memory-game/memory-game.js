@@ -46,7 +46,7 @@ for(i=0; i<buttons.length; i++) {
                     lastKnownButtonNumber = undefined;
                     matches++;
                         
-                        if(matches == 1) {
+                        if(matches == 8) {
                         showWinScreen();
                         }
                 }    
