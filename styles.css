@@ -555,6 +555,10 @@ body {
   padding: 3rem;
 }
 
+#all-projects {
+  color: #fff;
+}
+
 .boxes {
   display: -ms-grid;
   display: grid;
@@ -580,27 +584,23 @@ body {
           box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
-#all-projects {
-  color: #fff;
+.featured-project-icon {
+  height: 120px;
+  border-radius: 5px;
 }
 
 .portfolio {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .portfolio img {
   width: 100%;
   -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
           box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-}
-
-.featured-project-icon {
-  height: 120px;
-  border-radius: 5px;
 }
 
 .footer {
@@ -664,7 +664,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ddd;
   padding: 1rem;
-  height: 75vh;
+  height: 80vh;
   width: 60vw;
   margin: 0 auto;
 }
@@ -965,6 +965,7 @@ img {
   display: block;
   position: relative;
   width: 754px;
+  border-collapse: collapse;
 }
 
 td {
@@ -987,42 +988,6 @@ table {
   left: 34%;
   position: absolute;
   border: 8px solid #333;
-}
-
-table tr:first-child td {
-  border-top: none;
-}
-
-table tr:last-child td {
-  border-bottom: none;
-}
-
-table tr td:first-child {
-  border-left: none;
-}
-
-table tr td:last-child {
-  border-right: none;
-}
-
-/*|||| DRAG & DROP ||||*/
-.fill {
-  background-image: url("https://source.unsplash.com/random/150x150");
-  position: relative;
-  height: 150px;
-  width: 150px;
-  top: 5px;
-  left: 5px;
-  cursor: pointer;
-}
-
-.empty {
-  display: inline-block;
-  background: white;
-  height: 160px;
-  width: 160px;
-  margin: 10px;
-  border: solid 3px slateblue;
 }
 
 .stopwatch_container {
@@ -1214,6 +1179,7 @@ div.fadeIn {
   display: block;
   margin: 0 auto;
   height: 70vh;
+  cursor: none;
 }
 
 .memory-cells {
@@ -1234,7 +1200,6 @@ div.fadeIn {
 
 .mem-button {
   background-image: url(memory-game/resources/background.jpg);
-  font-size: 2rem;
   cursor: pointer;
   border: solid 1.25px black;
   border-collapse: collapse;
@@ -1538,36 +1503,17 @@ div.fadeIn {
   background: rgba(0, 0, 0, 0.5);
   padding: 100px;
   padding-top: 20px;
-  height: 60vh;
+  height: 70vh;
   width: 60vw;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
 #global-info p {
   color: #fff;
-  font-size: 1.4rem;
-  margin: 50px 100px;
-}
-
-#variable {
-  color: red;
-  font-weight: bold;
-}
-
-#loop {
-  color: yellow;
-  font-weight: bold;
-}
-
-#function {
-  color: purple;
-  font-weight: bold;
-}
-
-#general-code {
-  color: lime;
-  font-weight: bold;
+  font-size: 1.3rem;
+  width: 100%;
 }
 
 #global-close {
@@ -1575,8 +1521,8 @@ div.fadeIn {
   color: white;
   cursor: pointer;
   position: absolute;
-  top: 100px;
-  right: 450px;
+  top: -10px;
+  right: 15px;
 }
 
 #global-close:hover {
@@ -1635,6 +1581,65 @@ div.fadeIn {
     -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8) inset;
             box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8) inset;
     margin: 5px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .col {
+    width: 90px;
+    height: 90px;
+  }
+  #global-info {
+    height: 66vh;
+  }
+  #global-info p {
+    font-size: 1.2rem;
+  }
+  .memory-cells {
+    height: 70vh;
+  }
+  .memory-cells img {
+    width: 5vw;
+  }
+  .rock-paper-scissors-container {
+    height: 70vh;
+  }
+  .stopwatch {
+    font-size: 12em;
+  }
+  .laps li {
+    font-size: 0.8em;
+  }
+  #tetris {
+    height: 64vh;
+  }
+  #tetris-score {
+    font-size: 2.2em;
+  }
+  #t-table {
+    display: block;
+    position: relative;
+    width: 604px;
+  }
+  #t-table td {
+    height: 200px;
+    width: 200px;
+    font-size: 6rem;
+  }
+  table {
+    margin-top: 20px;
+    left: 33%;
+    position: absolute;
+  }
+  #info-reset img {
+    height: 35px;
+    width: 35px;
+  }
+  .about-container {
+    height: 75vh;
+  }
+  .contact-container {
+    height: 75vh;
   }
 }
 
