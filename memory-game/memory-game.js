@@ -99,6 +99,8 @@ function getImage(number) {
 }
 
 function showWinScreen(){
+    let audio = document.getElementById("victory");
+    audio.play();
     document.querySelector(".win-container").style.display="flex";
 
     document.getElementById("6").style.display="none";
