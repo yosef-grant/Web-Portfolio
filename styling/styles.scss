@@ -143,6 +143,9 @@ $background: linear-gradient(
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   --font: #eee;
   --font-alt: #333;
+ 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* ||| HOME PAGE ||| */
@@ -793,7 +796,6 @@ button {
       font-size: 1rem;
     }
   }
-
 
 }
 
