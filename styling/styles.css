@@ -727,6 +727,7 @@ button {
     margin-bottom: 5px;
   }
   .welcome-wrapper {
+    padding: 0;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -740,7 +741,7 @@ button {
     text-align: center;
   }
   .welcome-wrapper h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
   .welcome-wrapper p {
     font-size: 1.3rem;
