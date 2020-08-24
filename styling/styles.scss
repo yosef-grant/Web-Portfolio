@@ -776,6 +776,10 @@ button {
 }
 
 @media screen and (max-width: 576px){
+
+  body * {
+    user-select: none;
+  }
   .welcome-wrapper {
     h1 {
       font-size: 2.8rem;
