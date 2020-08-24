@@ -17,19 +17,19 @@ for (let i = 0; i < themeButtons.length; i++) {
 
 const setTheme = (mode) => {
     if (mode == 'default') {
-        document.getElementById('theme-style').href='./styling/themes/default.css';
+        document.getElementById('theme-style').href='../styling/themes/default.css';
      } 
     else if (mode == 'red') {
-        document.getElementById('theme-style').href='./styling/themes/red.css'
+        document.getElementById('theme-style').href='../styling/themes/red.css'
     }
     else if (mode == 'green') {
-        document.getElementById('theme-style').href='./styling/themes/green.css'
+        document.getElementById('theme-style').href='../styling/themes/green.css'
     }
     else if (mode == 'blue') {
-        document.getElementById('theme-style').href='./styling/themes/blue.css'
+        document.getElementById('theme-style').href='../styling/themes/blue.css'
     }
     else if (mode == 'purple') {
-        document.getElementById('theme-style').href='./styling/themes/purple.css'
+        document.getElementById('theme-style').href='../styling/themes/purple.css'
     }
     localStorage.setItem('theme', mode);
    
