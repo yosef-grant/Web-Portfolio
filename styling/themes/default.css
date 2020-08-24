@@ -1,0 +1,14 @@
+* {
+    --bg-light: rgba(0,0,0,0.05);
+    --bg-dark: rgba(0,0,0,0.35);
+    --default-primary: #ddd;
+    --default-dark: #333;
+    --default-light: #fff;
+    --font: #eee;
+    --font-alt: #333;  
+
+}
+
+.theme-btn:nth-child(1) {
+    border: solid 2px white;
+  }

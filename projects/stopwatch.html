@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styling/styles.css" />
+    <link id="theme-style" rel="stylesheet" href="" type="text/css" />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio | Stopwatch</title>
+  </head>
+  <body>
+    <header class="nav-wrapper">
+      <div class="logo"> 
+        <a href="/index.html"><h2>yosef-grant.Portfolio<span id='logo-emphasis'>()</span></h2></a>
+    </div>
+      <ul class="nav-list">
+        
+        <li class="list-item"><a href="../projects.html">Projects</a></li>
+        <li class="list-item"><a href="/index.html#about">About Me</a></li>
+        <li class="list-item"><a href="/index.html#contact">Contact</a></li>
+      </ul>
+    </header>
+    <div class="stopwatch_container">
+      <div class="controls">
+        <button onclick="start()">Start</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="restart()">Resume</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="lap()">Lap</button>
+        <button onclick="resetLaps()">Reset Laps</button>
+      </div>
+      <div class="stopwatch">00:00:00</div>
+      <div class="lap-container">
+        <ul class="laps"></ul>
+      </div>
+      <div id="global-info" style="display: none;">
+        <div id="global-close" onclick="closeInfo()">x</div>
+        <p></p>
+      </div>
+      <div id="info-reset">
+        <img src="../assets/info.png" onclick="showInfo()" />
+      </div>
+    </div>
+    
+    <div class="footer">
+      <ul class="socmed-icons">
+        <li class="icon">
+          <a href="https://github.com/yosef-grant" target="0"
+            ><i id="github" class="fab fa-github fa-2x"></i
+          ></a>
+        </li>
+        <li class="icon">
+          <a href="https://www.linkedin.com/in/yosef-grant" target="_blank"
+            ><i id="linked-in" class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="stopwatch/stopwatch.js"></script>
+    <script src="stopwatch/stopwatch-info.js"></script>
+    <script src="../scripts/themes.js"></script>
+  </body>
+</html>

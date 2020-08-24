@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/styling/styles.css" />
+    <link id="theme-style" rel="stylesheet" href="" type="text/css" />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Portfolio | Tic Tac Toe</title>
+  </head>
+  <body>
+    <header class="nav-wrapper">
+      <div class="logo"> 
+        <a href="/index.html"><h2>yosef-grant.Portfolio<span id='logo-emphasis'>()</span></h2></a>
+    </div>
+      <ul class="nav-list">
+        <li class="list-item"><a href="../projects.html">Projects</a></li>
+        <li class="list-item"><a href="/index.html#about">About Me</a></li>
+        <li class="list-item"><a href="/index.html#contact">Contact</a></li>
+      </ul>
+    </header>
+    <div class="ttt-wrapper">
+      <table id="t-table">
+        <tr>
+          <td class="cell" id="0"><p></p></td>
+          <td class="cell" id="1"><p></p></td>
+          <td class="cell" id="2"><p></p></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3"><p></p></td>
+          <td class="cell" id="4"><p></p></td>
+          <td class="cell" id="5"><p></p></td>
+        </tr>
+        <tr>
+          <td class="cell" id="6"><p></p></td>
+          <td class="cell" id="7"><p></p></td>
+          <td class="cell" id="8"><p></p></td>
+        </tr>
+      </table>
+      <div id="global-info" style="display: none;">
+        <div id="global-close" onclick="closeInfo()">x</div>
+        <p></p>
+      </div>
+    </div>
+    <div id="info-reset">
+      <img src="../assets/info.png" onclick="showInfo()" />
+      <img
+        id="project-restart"
+        src="../assets/refresh.png"
+        onclick="hardReset()"
+      />
+    </div>
+    <div class="footer">
+      <ul class="socmed-icons">
+        <li class="icon">
+          <a href="https://github.com/yosef-grant" target="0"
+            ><i id="github" class="fab fa-github fa-2x"></i
+          ></a>
+        </li>
+        <li class="icon">
+          <a href="https://www.linkedin.com/in/yosef-grant" target="_blank"
+            ><i id="linked-in" class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="tic tac toe/tic-tac-toe.js"></script>
+    <script src="tic tac toe/ttt-info.js"></script>
+    <script src="../scripts/themes.js"></script>
+  </body>
+</html>

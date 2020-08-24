@@ -1,0 +1,14 @@
+* {
+    --bg-light: #03962a70;
+    --bg-dark: #03962aa4;
+    --default-primary: #3E9C57;
+    --default-dark: #2D5E3A;
+    --default-light: #4AC76B;
+    --font: #eee;
+    --font-alt: #eee;
+  }
+  
+
+  .theme-btn:nth-child(3) {
+    border: solid 2px white;
+  }
