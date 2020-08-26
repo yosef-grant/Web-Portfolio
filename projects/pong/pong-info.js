@@ -1,9 +1,9 @@
 function showInfo() {
 
-    $("#pong").fadeOut(200);
+    $(".pong-wrapper").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     
     `
@@ -37,7 +37,7 @@ function showInfo() {
 }
 
 function closeInfo() {
-    $("#pong").delay(400).fadeIn(200);
+    $(".pong-wrapper").delay(400).fadeIn(200);
     $("#info-reset").delay(400).fadeIn(200);
     $("#global-info").fadeOut(200);
 }

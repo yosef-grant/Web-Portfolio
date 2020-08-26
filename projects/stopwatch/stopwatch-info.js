@@ -3,7 +3,7 @@ function showInfo() {
     $(".stopwatch_container").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     `
     <u>Controls</u>

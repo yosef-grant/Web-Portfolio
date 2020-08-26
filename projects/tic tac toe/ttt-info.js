@@ -1,9 +1,9 @@
 function showInfo() {
 
-    $("#t-table").fadeOut(200);
+    $(".ttt-wrapper").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     `
     <u>How to Play</u>
@@ -32,7 +32,7 @@ function showInfo() {
 }
 
 function closeInfo() {
-    $("#t-table").delay(400).fadeIn(200);
+    $(".ttt-wrapper").delay(400).fadeIn(200);
     $("#info-reset").delay(400).fadeIn(200);
     $("#global-info").fadeOut(200);
 }

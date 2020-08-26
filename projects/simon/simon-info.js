@@ -1,9 +1,9 @@
 function showInfo() {
 
-    $("#outer-circle").fadeOut(200);
+    $(".simon-wrapper").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     `
     <u>How to Play</u>
@@ -35,7 +35,7 @@ function showInfo() {
 }
 
 function closeInfo() {
-    $("#outer-circle").delay(400).fadeIn(200);
+    $(".simon-wrapper").delay(400).fadeIn(200);
     $("#info-reset").delay(400).fadeIn(200);
     $("#global-info").fadeOut(200);
 }

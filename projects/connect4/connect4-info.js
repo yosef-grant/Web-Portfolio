@@ -1,9 +1,9 @@
 function showInfo() {
 
-    $(".wrapper-connect").fadeOut(200);
-    $("#info-reset").fadeOut(200);
-    $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".wrapper-connect").fadeOut(150);
+    $("#info-reset").fadeOut(150);
+    $("#global-info").delay(350).fadeIn(350);
+    $(".project-info-overlay p").html(
         
     `
     <u> How to Play </u>
@@ -29,7 +29,7 @@ function showInfo() {
 }
 
 function closeInfo() {
-    $(".wrapper-connect").delay(400).fadeIn(200);
-    $("#info-reset").delay(400).fadeIn(200);
-    $("#global-info").fadeOut(200);
+    $(".wrapper-connect").delay(350).fadeIn(150);
+    $("#info-reset").delay(350).fadeIn(150);
+    $("#global-info").fadeOut(150);
 }

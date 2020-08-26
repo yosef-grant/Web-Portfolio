@@ -67,12 +67,12 @@ createGrid() {
             
             if (winner) {
                     that.isGameOver = true;
-                    alert(`Game Over! ${that.player} has won.`);
+                    alert(`Game Over!`);
                     $(".col.empty-space").removeClass('empty-space');
                     return;
             }
 
-            that.player = (that.player === "red") ? "Dark" : "Light";
+            that.player = (that.player === "red") ? "black" : "red";
             $(this).trigger("mouseenter");
         });
     }

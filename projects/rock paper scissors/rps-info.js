@@ -1,9 +1,9 @@
 function showInfo() {
 
-    $(".rock-paper-scissors-container").fadeOut(200);
+    $(".rps-wrapper").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info p").html(
         
     `
     <u>How to Play</u>
@@ -31,7 +31,7 @@ function showInfo() {
 }
 
 function closeInfo() {
-    $(".rock-paper-scissors-container").delay(400).fadeIn(200);
+    $(".rps-wrapper").delay(400).fadeIn(200);
     $("#info-reset").delay(400).fadeIn(200);
     $("#global-info").fadeOut(200);
 }

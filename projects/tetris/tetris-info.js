@@ -1,10 +1,10 @@
 function showInfo() {
-
+    $(".tetris-wrapper").fadeOut(200);
     $("#tetris").fadeOut(200);
     $("#tetris-score").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     `
     <u>How to Play</u>
@@ -35,6 +35,7 @@ function showInfo() {
 }
 
 function closeInfo() {
+    $(".tetris-wrapper").delay(400).fadeIn(200);
     $("#tetris").delay(400).fadeIn(200);
     $("#tetris-score").delay(400).fadeIn(200);
     $("#info-reset").delay(400).fadeIn(200);

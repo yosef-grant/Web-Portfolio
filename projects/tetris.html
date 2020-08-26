@@ -28,10 +28,7 @@
     <div class="tetris-wrapper">
       <canvas id="tetris" height="400" width="240"> </canvas>
       <div id="tetris-score"></div>
-      <div id="global-info" style="display: none;">
-        <div id="global-close" onclick="closeInfo()">x</div>
-        <p></p>
-      </div>
+      
       <div id="info-reset">
         <img src="../assets/info.png" onclick="showInfo()" />
         <img
@@ -41,6 +38,10 @@
         />
       </div>
     </div>
+    <div id="global-info" style="display: none;">
+      <div id="global-close" onclick="closeInfo()"> <p class="close-btn">x</p> </div>
+      <div class="project-info-overlay"><p></p></div>
+  </div>
     <div class="footer">
       <ul class="socmed-icons">
         <li class="icon">

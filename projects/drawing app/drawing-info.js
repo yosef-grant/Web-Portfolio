@@ -3,12 +3,12 @@ function showInfo() {
     $("#canvas").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     `
     <u>How to Draw</u>
     <br><br>
-    Inside the bordered canvas area, hold down left click and move the mouse to
+    Inside the canvas area, hold down left click and move the mouse to
     draw whatever you like. You can then release left click to pick up the pen and put it down in 
     a different position to draw somewhere else. Hit the refresh button to clear the canvas.
     <br><br>

@@ -1,9 +1,9 @@
 function showInfo() {
 
-    $("#snake-canvas").fadeOut(200);
+    $(".snake-wrapper").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     `
     <u>How to Play</u>
@@ -31,7 +31,7 @@ function showInfo() {
 }
 
 function closeInfo() {
-    $("#snake-canvas").delay(400).fadeIn(200);
+    $(".snake-wrapper").delay(400).fadeIn(200);
     $("#info-reset").delay(400).fadeIn(200);
     $("#global-info").fadeOut(200);
 }

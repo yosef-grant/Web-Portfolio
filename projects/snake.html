@@ -15,11 +15,12 @@
   </head>
   <body>
     <header class="nav-wrapper">
-      <div class="logo"> 
-        <a href="../index.html"><h2>yosef-grant.Portfolio<span id='logo-emphasis'>()</span></h2></a>
-    </div>
+      <div class="logo">
+        <a href="../index.html"
+          ><h2>yosef-grant.Portfolio<span id="logo-emphasis">()</span></h2></a
+        >
+      </div>
       <ul class="nav-list">
-        
         <li class="list-item"><a href="../projects.html">Projects</a></li>
         <li class="list-item"><a href="../index.html#about">About Me</a></li>
         <li class="list-item"><a href="../index.html#contact">Contact</a></li>
@@ -27,11 +28,11 @@
     </header>
     <div class="snake-wrapper">
       <canvas id="snake-canvas" height="608" width="608"> </canvas>
-      <div id="global-info" style="display: none;">
-        <div id="global-close" onclick="closeInfo()">x</div>
-        <p></p>
-      </div>
     </div>
+    <div id="global-info" style="display: none;">
+      <div id="global-close" onclick="closeInfo()"> <p class="close-btn">x</p> </div>
+      <div class="project-info-overlay"><p></p></div>
+  </div>
     <div id="info-reset">
       <img src="../assets/info.png" onclick="showInfo()" />
       <img

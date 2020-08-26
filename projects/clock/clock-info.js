@@ -1,9 +1,9 @@
 function showInfo() {
 
-    $(".clock-main").fadeOut(200);
+    $(".clock-wrapper").fadeOut(200);
     $("#info-reset").fadeOut(200);
     $("#global-info").delay(400).fadeIn(200);
-    $("#global-info p").html(
+    $(".project-info-overlay p").html(
         
     `
     
@@ -18,7 +18,7 @@ function showInfo() {
 }
 
 function closeInfo() {
-    $(".clock-main").delay(400).fadeIn(200);
+    $(".clock-wrapper").delay(400).fadeIn(200);
     $("#info-reset").delay(400).fadeIn(200);
     $("#global-info").fadeOut(200);
 }
