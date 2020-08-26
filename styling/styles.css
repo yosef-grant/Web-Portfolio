@@ -1272,6 +1272,10 @@ button {
 }
 
 #turn {
+  position: absolute;
+  background: #330000;
+  color: red;
+  font-family: courier;
   font-size: 20px;
   height: 30px;
   width: 50px;
@@ -1283,6 +1287,8 @@ button {
 }
 
 #outer-circle {
+  background: #385a94;
+  border-radius: 50%;
   height: 500px;
   width: 500px;
   position: relative;
@@ -1978,12 +1984,6 @@ table {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .stopwatch {
-    font-size: 5.2em;
-  }
-}
-
 .rps-wrapper {
   min-height: 90vh;
   text-align: center;
@@ -2246,7 +2246,7 @@ div.fadeIn {
 @media screen and (max-width: 480px) {
   #snake-canvas {
     height: 324px;
-    width: 324px;
+    width: 34px;
   }
 }
 
@@ -2705,6 +2705,13 @@ div.fadeIn {
   .memory-cells img {
     max-height: 150px;
     max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .memory-cells img {
+    max-height: 100px;
+    max-width: 75px;
   }
 }
 
