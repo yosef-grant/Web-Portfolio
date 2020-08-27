@@ -612,6 +612,7 @@ button {
     height: 75px;
   }
   .img-wrapper img {
+    height: auto;
     width: 500px;
   }
   .text-content {
@@ -689,6 +690,7 @@ button {
     padding-left: 180px;
   }
   .img-wrapper img {
+    height: auto;
     width: 425px;
   }
   .text-content h1 {
@@ -830,6 +832,10 @@ button {
   }
   .more-projects button a {
     text-decoration: none;
+  }
+  .img-wrapper img {
+    height: auto;
+    width: 425px;
   }
   .about-wrapper {
     display: -webkit-box;
@@ -982,6 +988,10 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 80px 10px 10px 10px;
+  }
+  .img-wrapper img {
+    height: auto;
+    width: 400px;
   }
   .text-wrapper {
     padding: 0 5px;
