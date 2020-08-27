@@ -444,6 +444,7 @@ button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  
 }
 
 .text-wrapper {
@@ -457,10 +458,10 @@ button {
 
 .text-content {
   flex-wrap: nowrap;
-  min-height: 600px;
+  min-height: 750px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   
   h1 {
     margin-top: 0;
@@ -485,7 +486,7 @@ button {
   margin: 10px;
 
   img {
-    width: 400px;
+    width: 750px;
     box-sizing: border-box;
     border: 2.5px solid white;
   }
@@ -648,7 +649,12 @@ button {
     height: 75px;
   }
 
+  .img-wrapper img{
+   height: 500px;
+  }
+
   .text-content {
+    max-height: 500px;
     h1 {
       font-size: 4rem;
     }
