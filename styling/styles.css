@@ -1171,7 +1171,8 @@ button {
     margin: 10px;
   }
   .img-wrapper img {
-    width: 200px;
+    height: auto;
+    width: 300px;
     border: 2.5px solid white;
   }
   .contact-wrapper h2 {
