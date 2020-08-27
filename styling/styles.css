@@ -426,7 +426,8 @@ button {
 }
 
 .img-wrapper img {
-  width: 750px;
+  height: auto;
+  width: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 2.5px solid white;
