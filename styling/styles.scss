@@ -650,11 +650,11 @@ button {
   }
 
   .img-wrapper img{
-   height: 500px;
+   width: 500px;
   }
 
   .text-content {
-    max-height: 500px;
+    min-height: 400px;
     h1 {
       font-size: 4rem;
     }
@@ -742,6 +742,10 @@ button {
   .text-wrapper {
     padding-left: 180px;
   }
+
+  .img-wrapper img{
+    width: 425px;
+   }
 
   .text-content {
     h1 {
