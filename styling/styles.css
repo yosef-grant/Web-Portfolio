@@ -2286,7 +2286,7 @@ div.fadeIn {
 @media screen and (max-width: 480px) {
   #snake-canvas {
     height: 324px;
-    width: 34px;
+    width: 324px;
   }
 }
 
