@@ -21,11 +21,11 @@ function showInfo() {
     <br><br>
     Matrixes underpin the entirety of this project, working in conjunction with an HTML canvas. A matrix forms the play area wherein empty space is represented by zeros, and the tetris shapes are formed by individual matrixes, 
     each with its own number to give it a unique identity. This comes in useful when assigning a particular color to each piece. Once the play space has been fully rendered, the merge() function inserts the player 
-    matrix, with a randomly-generted piece, into the arena. Event listeners mapped to the appropriate keys allow the player to manipulate the piece in 2-d space, which falls by one increment per second down the length of the arena matrix. 
+    matrix, with a randomly-generted piece, into the arena. Event listeners mapped to the appropriate keys allow the player to manipulate the piece in 2-d space, which falls by one space-increment per second down the length of the arena matrix. 
     Rotation is handled by the rotate() function, which transposes the matrix before flipping it. The extra zeros of empty space around each turnable piece aid in giving the piece a more predictable 'center', keeping the 
-    rotation behaviour in line with expectations. Collision functions keep track of the piece as it falls and is rotated, ensuring the piece stays within the playable area when falling, when moved, when rotated at the extreme left and 
+    rotation behaviour in line with user expectations. Collision functions keep track of the piece as it falls and is rotated, ensuring the piece stays within the playable area when falling, when moved, when rotated at the extreme left and 
     right of the playspace, and when pieces are stacked from top to bottom. The arenaSweep() function loops through the arena playspace. If any 0 values are present in a row, it is incomplete and skipped in the loop. Rows with no 0
-    values are considered complete, and are removed from the playspace, removed, and placed at the top of the array as a row of zeroes, pushing the remaining rows down. The score is updated each time the arenaSweep() detects a complete row, and awards 
+    values are 'complete', and are therefore removed from the playspace and placed at the top of the array as a row of zeroes (black space), pushing the remaining rows down. The score is updated each time the arenaSweep() detects a complete row, and awards 
     10 points for a completed row. A x2 multiplier is in effect for multiple rows completed at once.
 
     

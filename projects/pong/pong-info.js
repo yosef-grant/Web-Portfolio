@@ -28,7 +28,7 @@ function showInfo() {
     the speed at which the CPU paddle changes positions to intercept the ball on the Y-axis. The last part of this function
     determines where on the paddle the ball strikes, and the way its movement is affected by a particular angle. The ball also
     increases in velocity on each hit. A set interval function then allows the game to run as expected by calling the game function
-    sixty times every second.       
+    sixty times every second to give it smooth motion.       
 
     
     `

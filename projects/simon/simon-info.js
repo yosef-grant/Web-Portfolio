@@ -21,12 +21,12 @@ function showInfo() {
     <br><br>
     The code begins by declaring all variables that will be used throughout the program, including the variables order
     and player order, which are declared as empty arrays. Any DOM elements required by the code are also called here. 
-    The on button is given its functionality through an if statement which uses an event listener to switch between 'on' and 
-    'off' states. If the start button is on, the play function is called. This function uses a for loop to push a random number
+    The on button is given its functionality through an 'if' statement which uses an event listener to switch between 'on' and 
+    'off' states. If the start button is on, the play function is called. This function uses a 'for' loop to push a random number
     between one and four into the order array. This order corresponds to functions one, two, three and four which contain their own
     specific noises and flash-colours which will activate when they feature in the array. These in turn correspond to the four quadrants
     making up the circle in the game. The player input is stored in an array called player order. This is compared with the order array in the 
-    check function, which uses an if statement to determine whether the player has won, has entered the correct pattern, or has entered the incorrect pattern,
+    check function, which uses an 'if' statement to determine whether the player has won, has entered the correct pattern, or has entered the incorrect pattern,
     and which action to take in response. The winScore variable is used to set the total amount of turns in the game. 
 
     `

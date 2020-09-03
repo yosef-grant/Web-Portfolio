@@ -1,10 +1,10 @@
-let ms = 0;
-let s = 0;
-let m = 0;
-let timer;
-let stopwatchElement=document.querySelector(".stopwatch");
-let lapsContainer=document.querySelector(".laps");
-let lapArray = [];
+let ms = 0,
+    s = 0,
+    m = 0,
+    timer,
+    stopwatchElement=document.querySelector(".stopwatch"),
+    lapsContainer=document.querySelector(".laps"),
+    lapArray = [];
 
 
 

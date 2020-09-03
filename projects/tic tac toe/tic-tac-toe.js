@@ -1,10 +1,10 @@
 // declaring & defining global variables //
 
-var origBoard;
-const cells = $(".cell");
-const huPlayer = 'O';
-const aiPlayer = 'X';
-const winCombos = [
+let origBoard;
+const cells = $(".cell"),
+	huPlayer = 'O',
+	aiPlayer = 'X',
+	winCombos = [
 	[0, 1, 2],
 	[3, 4, 5],
 	[6, 7, 8],

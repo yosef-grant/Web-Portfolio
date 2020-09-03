@@ -733,6 +733,27 @@ button {
     width: 32.5px;
     height: 32.5px;
   }
+  #global-info {
+    background: var(--bg-dark);
+    padding: 20px 50px;
+    padding-top: 50px;
+    height: 100%;
+  }
+  .project-info-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: var(--font);
+    font-size: 1.5rem;
+  }
+  #global-close p {
+    cursor: pointer;
+    font-size: 2.4rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -894,6 +915,27 @@ button {
   .contact-details p {
     font-size: 1.5rem;
   }
+  #global-info {
+    background: var(--bg-dark);
+    padding: 20px 25px;
+    padding-top: 50px;
+    height: 100%;
+  }
+  .project-info-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: var(--font);
+    font-size: 1.1rem;
+  }
+  #global-close p {
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1040,6 +1082,27 @@ button {
   .contact-details p {
     font-size: 1.175rem;
   }
+  #global-info {
+    background: var(--bg-dark);
+    padding: 20px 25px;
+    padding-top: 50px;
+    height: 100%;
+  }
+  .project-info-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: var(--font);
+    font-size: 1.1rem;
+  }
+  #global-close p {
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1182,6 +1245,31 @@ button {
   }
   .contact-details p {
     font-size: 1.1rem;
+  }
+  #global-info {
+    background: var(--bg-dark);
+    padding: 20px 25px;
+    padding-top: 50px;
+    height: 100%;
+  }
+  .project-info-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: var(--font);
+    font-size: 1.1rem;
+  }
+  #global-close p {
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+  .close-btn:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 

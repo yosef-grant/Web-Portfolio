@@ -20,8 +20,8 @@ function showInfo() {
     creates a new array with indexes 0-8. This origBoard array is now the basis for player and CPU input. Once a player has made an input into the cell, the innertext is altered depending on which player makes the input. The code 
     recognises this as no longer being empty. A tie is declared when no empty squares are present and the win condition has not been met.  A win is determined by using a reducer on the origBoard array and adding player moves to the accumulator. 
     If the values of either players' moves match any of the winCombos, a win is declared for whichever player matches the combo. 
-    <br>
-    A standout feature of this project is the use of the Minimax algorithm, which recurs through each play of the game to determmine the best possible move for the CPU based on human input and available 
+    <br><br>
+    A standout feature of this project is the use of the Minimax algorithm, which recurs through each play of the game to determine the best possible move for the CPU based on human input and available 
     spaces on the board. The algorithm iterates through each theoretical move available in the game and assigns a negative score for each move resulting in a human-player victory, and a positive score for each move 
     resulting in a CPU victory. The 'scores' for these theoretical plays are evaluated using their score total, and the best-scoring is assigned to the bestMove variable. This algorithm ensures that the human player cannot win the game. 
 	
